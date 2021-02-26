@@ -16,8 +16,17 @@
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   display: flex;
+  position: relative;
   align-items: center;
   color: black;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  height: 32px;
+  width: 183px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
