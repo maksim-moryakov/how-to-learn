@@ -22,12 +22,12 @@
   padding-left: 64px;
 }
 
-.header__logo {
+.logo {
   height: 32px;
   width: 183px;
 }
 
-.header__logo_place {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
