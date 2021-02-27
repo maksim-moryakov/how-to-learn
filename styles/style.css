@@ -78,7 +78,7 @@
 }
 
 .description {
-  margin: 100px auto;
+  margin: 100px auto 0;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -117,6 +117,8 @@
 .digits {
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -142,7 +144,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto 100px;
+  margin: 0 auto 0;
   padding-left: 0;
  }
 
@@ -210,10 +212,36 @@
   font-size: 36px;
 }
 
+.kaufman {
+  background-color: #1f1f1f;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title__theme_dark {
+  color: white;
+}
+
+.cection-sutitle__theme_dark {
+  color: white;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.kaufnman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  width: 877px;
+  height: 877px;
 }
