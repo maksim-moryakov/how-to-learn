@@ -245,3 +245,67 @@
   width: 877px;
   height: 877px;
 }
+
+.footer {
+  background-color: #1f1f1f;
+  color: white;
+  min-height: 250px;
+  padding: 60px 0 40px 0;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  min-height: 250px;
+  margin: 0 auto;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  height: 35px;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  align-content: flex-end;
+}
+
+.footer__column_info {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column_social {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+}
