@@ -80,6 +80,7 @@
 }
 
 .description {
+  /* Нужно будет избавиться от этого маржина */
   margin: 100px auto 0;
   width: 80%;
 }
@@ -106,6 +107,7 @@
 .two-columns__paragraph{
   line-height: 34px;
   font-size: 24px;
+  /* попробовать избавиться от маржина */
   margin: 0 0 30px 0;
 }
 
