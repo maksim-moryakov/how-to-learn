@@ -80,11 +80,12 @@
 }
 
 .description {
-  margin: 100px auto 0;
-  width: 80%;
+  padding-top: 100px;
 }
 
 .two-columns {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
@@ -204,8 +205,6 @@
 .oakley {
   padding-top: 160px;
   background-color: #f2f2f2;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 /* Конец секции oakley */
@@ -416,4 +415,69 @@
   width: 16px;
   height: 16px;
   padding-right: 10px;
+}
+
+/* Начало блока khan */
+
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.khan__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 36px;
+}
+
+.khan__quote-author {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+}
+
+.khan__quote-author-subline {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 68px;
+}
+
+.khan__blook-container {
+  display: flex;
+}
+
+.khan__blook-pic {
+  width: 620px;
+  height: 608px;
+}
+
+.khan__buy-link {
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  padding-left: 48px;
 }
