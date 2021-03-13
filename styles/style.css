@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -21,6 +30,7 @@
   align-items: center;
   color: black;
   padding-left: 64px;
+  overflow: hidden;
 }
 
 .logo {
@@ -82,6 +92,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  animation: rotation 20s linear infinite;
 }
 
 .description {
@@ -361,6 +372,7 @@
   width: 877px;
   height: 877px;
   background-size: cover;
+  animation: rotation 20s linear infinite;
 }
 
 .footer {
