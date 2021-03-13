@@ -126,7 +126,6 @@
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 100px;
   align-items: center;
   width: 80%;
   margin: auto;
@@ -182,6 +181,23 @@
 }
 
 /* Конец секции techniques */
+
+/* Секция video */
+
+.video {
+  padding-top: 100px;
+  margin-bottom: -60px;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.video__iframe:nth-child(1) {
+  padding-right: 20px;
+}
 
 /* Начало секции oakley */
 
