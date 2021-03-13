@@ -58,6 +58,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 1s linear 0.5s;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -311,6 +316,11 @@
   line-height: 51px;
   font-size: 36px;
   z-index: 1;
+  transition: opacity 1s linear 0.5s;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .kaufman {
@@ -390,6 +400,8 @@
   padding: 20px 0 16px;
 }
 
+.
+
 /* Используем чтобы обнулить свойства списка */
 .footer__links-list {
   margin: 0;
@@ -409,6 +421,11 @@
   font-size: 18px;
   color: white;
   text-decoration: none;
+  transition: opacity 1s linear 0.5s;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
 
 .footer__social-icon {
@@ -480,6 +497,11 @@
   line-height: 42px;
   font-size: 30px;
   padding-left: 48px;
+  transition: opacity 1s linear 0.5s;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
 
 .resources {
