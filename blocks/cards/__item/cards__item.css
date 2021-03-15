@@ -3,12 +3,8 @@
   padding-top: 60px;
 }
 
-.cards__item:nth-child(2) {
+.cards__item:nth-child(3n+2) {
   padding-right: 100px;
   padding-left: 100px;
 }
 
-.cards__item:nth-child(5) {
-  padding-right: 100px;
-  padding-left: 100px;
-}
