@@ -9,4 +9,5 @@
   color: black;
   padding-left: 64px;
   overflow: hidden;
+  z-index: 1;
 }
